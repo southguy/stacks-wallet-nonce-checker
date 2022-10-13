@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content="width=device-width,height=device-height, initial-scale=1, shrink-to-fit=yes">
+
+    <!--theme colors -->
+    <meta name="theme-color" content="light" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!--Basic meta info -->
+    <meta name="keywords" content="bns .btc domains">
+    <meta name="author" content="willby" />
+    <meta name="description" content="">
+
+    <!--OpenGraph meta -->
+    <meta property="og:description" content=""/>
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="logo.png"/>
+    <meta property="og:url" content="" />
+
+    <!--meta for twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@bhupeshimself">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:image" content="logo.png">
+    <meta name="twitter:site" content="@bhupeshimself">
+    <meta name="twitter:description" content="">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="logo.png"/>
+
+    <!-- Manifest for PWA -->
+    <link rel="manifest" href="manifest.json">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+	<title>BNS TOOLS BY Willby</title>
+</head>
+<body>
+  
+  <!-- As a heading -->
+  <nav class="navbar navbar-light bg-primary mb-4">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">BNS TOOL by Willby</span>
+    </div>
+  </nav>
+
+<div class="container mt-4 ">
+    <h2 class="text-xl text-center">STX WALLET TX NONCE CHECKER</h2>
+    <div class="form-outline mb-4 mt-4">
+        <input id="bruh" class="form-control" pattern="[0-9]+">
+        <label class="form-label" >*Paste Your Stx Address ex. SP3C6WEDF5XYHNJ1FYK18E551HSEXMPWB7SZT11H5</label>
+      </div>
+      <div id="datatable">
+      </div>
+      <div>
+        <select class="form-select" id="selected" aria-label="Default select example">
+            <option selected>Hiro / Xverse wallet Nonce checker </option>
+        
+          </select>
+     
+</div>
+ </div>
+      <div class="container mt-4 mb-3 text-center" >
+        <button id="search" type="button" class="btn btn-primary">Search</button>
+      </div>
+
+      <div class="container mb-4">
+        <div id="results">
+            <div class="card container" style="width: 100%;">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Missing Nonces if any: <p id="detected_missing_nonces"></p> </h5> <br>
+                  <h5 class="card-title text-center">Last Executed Tx Nonce: <p id="last_executed_tx_nonce"></p></h5> <br>
+                  <h5 class="card-title text-center">Last Mempool Tx Nonce : <p id="last_mempool_tx_nonce"></p></h5> <br>
+                  <h5 class="card-title text-center" >Possible Next Nonce : <p id="possible_next_nonce"></p> </h5>
+                  </div>
+                </div>
+        </div>
+      </div>
+
+      
+
+
+
+  <footer class="bg-primary footer text-center text-lg-start bottom mt-4">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 123, 255);">
+      © 2022 Copyright:
+      <a class="text-dark" href="https://forum.stacks.org/u/willby.btc">willby.btc</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <script src="/js/index.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>
